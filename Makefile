@@ -1,11 +1,11 @@
 #Makefile
-all: hexAdd
+all: Add-nbo
 
-hexAdd: main.o
-	g++ -o hexAdd main.o
+Add-nbo: main.o
+	g++ -o Add-nbo main.o
 
 main.o: main.cpp
 
 clean:
-	rm -f hexAdd
+	rm -f Add-nbo
 	rm -f main.o

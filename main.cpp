@@ -9,7 +9,6 @@ using namespace std;
 int main(int argc, char** argv)
 {
 	
-
 	if (argc != 3)
 	{
 		printf("[exe 파일1 파일2] 형식으로 입력해주세요.");
